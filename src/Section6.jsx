@@ -3,7 +3,7 @@ import React from "react";
 export default function Section6() {
   return (
     <section className="flex justify-center bg-[#34375a]">
-      <div className="container grid grid-cols-1 lg:grid-cols-2 w-11/12 lg:w-5/12 bg-[#34375a] p-2 gap-6 text-white border border-white rounded-2xl  ">
+      <div className="container grid grid-cols-1 lg:grid-cols-2 w-11/12 lg:w-6/12 bg-[#34375a] p-2 gap-6 text-white border border-white rounded-2xl  ">
         <div className=" p-2 flex flex-col gap-2">
           <h1 className="font-bold text-[17px]">Get in touch</h1>
           <h1 className="font-bold text-[14px]">

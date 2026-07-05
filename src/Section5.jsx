@@ -4,16 +4,23 @@ export default function Section5() {
   return (
     <>
       <section className=" h-[200px] lg:h-[400px]">
-        <div className="   w-100%  h-[100%] mb-10 ">
+        <div className="   w-100%  h-[100%] ">
           <img
             className=" w-full h-full object-cover"
             src="https://assets.nicepagecdn.com/d2cc3eaa/3159880/images/manager-woman-leading-4-min.jpg "
           ></img>
         </div>
       </section>
+
       <main className="bg-[#34375a] p-2 flex justify-center ">
-        <div className="container bg-[#34375a] p-2 w-11/12 lg:w-8/12 gap-5 flex flex-col items-center justify-center   ">
-          <div className="bg-white p-2 w-full lg:w-1/2 flex flex-col items-center text-center gap-2 rounded-2xl  ">
+        <div
+          data-aos="fade-right"
+          className="container  bg-[#34375a] p-2 w-11/12 lg:w-8/12 gap-5 flex flex-col items-center justify-center "
+        >
+          <div
+            data-aos="zoom-in-left"
+            className="bg-white p-2 w-full lg:w-1/2 flex flex-col items-center text-center gap-2 rounded-2xl  "
+          >
             <h1 className="font-bold text-[22px]">Our Creative Team</h1>
             <p className="text-[13px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam
@@ -30,8 +37,13 @@ export default function Section5() {
             <h1 className="font-bold text-[24px] text-white  ">
               Brilliant people and effective methods
             </h1>
+
             <div className="bg-green-500 w-full flex flex-col justify-center items-center relative">
-              <div className="grid grid-cols-2 lg:grid-cols-4 w-11/12 gap-3 lg:gap-6 absolute bottom-25 lg:bottom-75  ">
+              <div
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+                className="grid grid-cols-2  lg:grid-cols-4 w-11/12 gap-3 lg:gap-6 absolute bottom-25 lg:bottom-75  "
+              >
                 <div className="bg-white flex flex-col gap-1 lg:gap-2 px-2 py-2.5 lg:py-5 justify-center items-center">
                   <h1 className="text-[13px] text-gray-500 ">awards won</h1>
                   <h1 className="font-bold text-[#f6b63a] text-[20px] lg:text-[37px]">

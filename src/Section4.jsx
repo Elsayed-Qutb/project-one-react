@@ -3,8 +3,11 @@ import React from "react";
 export default function Section4() {
   return (
     <section className="w-100% p-3 flex flex-col  items-center mt-20 lg:mt-10">
+
       <div className="container w-11/12 lg:w-8/12 p-3 ">
-        <div className="h-100% w-100% grid grid-cols-1 lg:grid-cols-4 gap-2 ">
+
+        <div data-aos="fade-up" className="h-100% w-100% grid grid-cols-1 lg:grid-cols-4 gap-2  ">
+
           <div className="h-100% flex justify-center p-2 flex-col items-center gap-8">
             <div className="h-[80px] bg-[#f5c334]  w-[80px]  rounded-full relative">
               {" "}
@@ -22,6 +25,8 @@ export default function Section4() {
               </p>
             </div>
           </div>
+
+
           <div className="h-100% flex justify-center p-2 flex-col items-center gap-8">
             <div className="h-[80px] bg-[#f5c334]  w-[80px]  rounded-full relative">
               {" "}
@@ -39,6 +44,7 @@ export default function Section4() {
               </p>
             </div>
           </div>
+
           <div className="h-100% flex justify-center p-2 flex-col items-center gap-8">
             <div className="h-[80px] bg-[#f5c334]  w-[80px]  rounded-full relative">
               {" "}
@@ -56,6 +62,7 @@ export default function Section4() {
               </p>
             </div>
           </div>
+
           <div className="h-100% flex justify-center p-2 flex-col items-center gap-8">
             <div className="h-[80px] bg-[#f5c334]  w-[80px]  rounded-full relative">
               {" "}
@@ -73,10 +80,13 @@ export default function Section4() {
               </p>
             </div>
           </div>
+
         </div>
       </div>
+
       <div className="container w-11/12 lg:w-8/12 p-3 gap-3 lg:gap-.5 grid grid-cols-1 lg:grid-cols-2">
-        <div className="flex flex-col gap-3 items-center lg:items-start p-1">
+
+        <div data-aos="fade-right" className="flex flex-col gap-3 items-center lg:items-start p-1">
           <h1 className="font-bold text-center lg:text-start bg-[#f5c334] text-[27px] w-11/12 lg:w-8/12 p-3 rounded-b-2xl">
             Don't Do Digital. Be Digital.
           </h1>
@@ -92,11 +102,14 @@ export default function Section4() {
             LEARN MORE
           </button>
         </div>
-        <div className="flex flex-col items-center lg:items-start  text-center lg:text-start gap-3">
-          <img
+
+        <div data-aos="fade-left" className="flex flex-col items-center lg:items-start  text-center lg:text-start gap-3">
+
+          <img data-aos="flip-right"
             className="w-[140px] h-[140px] rounded-full"
             src="https://assets.nicepagecdn.com/d2cc3eaa/3762495/images/43245.jpg"
           ></img>
+
           <div className="w-9/12">
             <h1 className="font-bold ">UI/UX Development</h1>
             <p className="text-[12px]">
@@ -104,6 +117,7 @@ export default function Section4() {
               click to start editing the text.
             </p>
           </div>
+
           <div className="w-9/12">
             <h1 className="font-bold ">Databass Planning</h1>
             <p className="text-[12px]">
@@ -111,13 +125,15 @@ export default function Section4() {
               click to start editing the text.
             </p>
           </div>
+
         </div>
       </div>
 
-      <main className="container w-11/12 lg:w-8/12 grid grid-cols-1 lg:grid-cols-2 pt-1.5 items-center bg-[#f6b639] rounded-2xl ">
-        <div className="flex flex-col gap-2.5 justify-center items-center text-center">
-          <h1 className="font-bold">Coaching & consulting</h1>
-          <h2 className="font-bold text-[17px] lg:text-[20px]">
+      <main className="container w-11/12 lg:w-8/12 grid grid-cols-1 lg:grid-cols-2 pt-1.5 items-center  bg-[#f6b639] mt-2 rounded-2xl ">
+
+        <div data-aos="zoom-in-down" className="flex flex-col gap-2.5 lg:gap-4 justify-center items-center text-center p-3 lg:p-0">
+          <h1 className="font-medium">Coaching & consulting</h1>
+          <h2 className="font-extrabold text-[19px] lg:text-[20px]">
             When to use a Professional Coach
           </h2>
           <p className="text-[12px] w-10/12">
@@ -130,7 +146,9 @@ export default function Section4() {
             LEARN MORE
           </button>
         </div>
-        <img src="https://assets.nicepagecdn.com/d2cc3eaa/3762495/images/clock-min.png"></img>
+
+        <img  data-aos="fade-right" src="https://assets.nicepagecdn.com/d2cc3eaa/3762495/images/clock-min.png"></img>
+        
       </main>
     </section>
   );
